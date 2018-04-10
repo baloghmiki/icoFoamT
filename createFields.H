@@ -14,11 +14,15 @@
 
     dimensionedScalar nu
     (
+        "nu",
+        dimViscosity,
         transportProperties.lookup("nu")
     );
 
     dimensionedScalar DT
     (
+        "DT",
+        dimViscosity,
         transportProperties.lookup("DT")
     );
 
